@@ -50,6 +50,7 @@ public class AuthorDAO extends BaseDAO implements ResultSetExtractor<List<Author
 			template.update("insert into tbl_book_authors(authorId,bookId) values(?,?)",newAuthorId,ids[i]);
 		}
 		*/
+		//Git hub
 
 		return 0; 
 	}
